@@ -1,3 +1,5 @@
+/* Index Page Section */
+
 * {
     box-sizing: border-box;
 }
@@ -77,6 +79,8 @@ a {
     }
 }
 
+/* About Page Section */
+
 .personal-about header {
     padding: 0, 20px;
     font-size: x-large;
@@ -93,7 +97,9 @@ h4 {
 
 .personal-about footer,
 .pa-sidebar,
-.personal-about-content {
+.personal-about-content1,
+.personal-about-content2,
+.personal-about-content3 {
     padding: 20px;
 }
 
@@ -106,7 +112,9 @@ h4 {
     background-color: blue;
 }
 
-.personal-about-content {
+.personal-about-content1,
+.personal-about-content2,
+.personal-about-content3 {
     background-color: darkcyan;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -122,7 +130,7 @@ h4 {
     flex-direction: column;
 }
 
-.personal-about-content {
+.personal-about-content1 {
     flex: 1 1 auto;
 }
 
@@ -140,6 +148,8 @@ h4 {
     }
 }
 
+/* Portfolio Page Section */
+
 .personal-portfolio header {
     padding: 0, 20px;
     font-size: x-large;
@@ -147,7 +157,9 @@ h4 {
 
 .personal-portfolio footer,
 .pp-sidebar,
-.personal-portfolio-content {
+.personal-portfolio-content1,
+.personal-portfolio-content2,
+.personal-portfolio-content3 {
     padding: 20px;
 }
 
@@ -160,7 +172,9 @@ h4 {
     background-color: blue;
 }
 
-.personal-portfolio-content {
+.personal-portfolio-content1,
+.personal-portfolio-content2,
+.personal-portfolio-content3 {
     background-color: darkcyan;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -170,14 +184,9 @@ h4 {
     min-height: 100vh;
 }
 
-.personal-portfolio, .personal-portfolio-body {
+.personal-portfolio-body {
     display: flex;
-    flex: 1 1 auto;
     flex-direction: column;
-}
-
-.personal-portfolio-content {
-    flex: 1 1 auto;
 }
 
 .personal-portfolio-sidebar-1 {
@@ -193,6 +202,8 @@ h4 {
         flex: 0 0 260px;
     }
 }
+
+/* Contact Page Section */
 
 .personal-contact header {
     padding: 0, 20px;
@@ -250,4 +261,16 @@ a:hover {
     .pc-sidebar {
         flex: 0 0 260px;
     }
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
+
+/* Form Submitted Page */
+
+.form {
+    background-color: darkcyan;
+    font-size: xx-large;
 }
